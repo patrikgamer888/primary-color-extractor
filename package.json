@@ -4,7 +4,7 @@
     "description": "Extracts primary colors from images",
     "author": "",
     "dependencies": {
-      "canvas": "^2.11.0",
+      "@napi-rs/canvas": "^0.1.44",
       "node-fetch": "^2.6.9"
     }
   }
