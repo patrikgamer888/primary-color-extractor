@@ -1,6 +1,6 @@
 // Netlify serverless function for color extraction
 const fetch = require('node-fetch');
-const { createCanvas, Image } = require('canvas');
+const { createCanvas, Image } = require('@napi-rs/canvas');
 
 exports.handler = async function(event, context) {
   // Enable CORS
